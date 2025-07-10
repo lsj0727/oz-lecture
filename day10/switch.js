@@ -17,7 +17,7 @@ switch (food) {
 
 let score = 90;
 let grade: 
-if (score >= 90 && score <= 100) {
+if ((score >= 90) && (score <= 100)) {
     grade = "A++";
 }
 

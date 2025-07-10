@@ -1,6 +1,6 @@
 // 변수 선언 및 다양한 데이터 타입 할당
-var age = 25;                    // number
-let name = "Alice";             // string
+var age = 39;                    // number
+let name = "이승진";             // string
 const isStudent = true;         // boolean
 let job = null;                 // null
 var hobby;                      // undefined
@@ -12,13 +12,13 @@ let profileMessage = "이름:\t" + name + "\n나이:\t" + age + "\n학생 여부
 console.log(profileMessage);
 
 // 배열 리터럴과 문자열 결합 출력
-let hobbies = ["reading", "gaming", "coding"];
+let hobbies = ["Design", "Gym", "Cafe Tour"];
 console.log("My hobbies: " + hobbies.join(", "));
 
 // 객체 리터럴 선언
 let profile = {
-  name: "Alice",
-  age: 25,
+  name: "이승진",
+  age: 39,
   isStudent: true
 };
 
